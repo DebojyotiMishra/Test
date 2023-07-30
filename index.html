@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./amazon-nav.css">
+    <link rel="stylesheet" href="./amazon.css">
+</head>
+<body>
+    <nav>
+        <!-- Left -->
+        <a href="index.html">
+          <img src="./images/amazon-logo-white.png" alt="" class="amazon-logo">
+          <img src="./images/amazon-mobile-logo-white.png" alt="" class="amazon-logo-mobile">
+        </a>
+
+        <!-- Search Bar -->
+        <div class="searchbar">
+            <div class="search-field">
+                <input type="text" placeholder="Search..." class="input-field">
+            </div>
+    
+            <div class="magnifying-glass-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="magnifying-glass">
+                  <path d="M6.3833 12.8767C7.76953 12.8767 9.04785 12.4285 10.0938 11.6814L14.0283 15.616C14.2109 15.7986 14.4517 15.8899 14.709 15.8899C15.2485 15.8899 15.6304 15.4749 15.6304 14.9436C15.6304 14.6946 15.5474 14.4539 15.3647 14.2795L11.4551 10.3616C12.2769 9.28247 12.7666 7.94604 12.7666 6.49341C12.7666 2.98218 9.89453 0.110107 6.3833 0.110107C2.88037 0.110107 0 2.97388 0 6.49341C0 10.0046 2.87207 12.8767 6.3833 12.8767ZM6.3833 11.4988C3.64404 11.4988 1.37793 9.23267 1.37793 6.49341C1.37793 3.75415 3.64404 1.48804 6.3833 1.48804C9.12256 1.48804 11.3887 3.75415 11.3887 6.49341C11.3887 9.23267 9.12256 11.4988 6.3833 11.4988Z" fill="#ebebf5" fill-opacity="0.6"/>
+                </svg>
+            </div>
+          </div>
+
+          <!-- Right -->
+          <div class="nav-right-section">
+            <div class="returns-and-orders">
+              <a href="" class="return-order-link">
+                <span class="returns">Returns</span>
+                <span class="orders">& orders</span>
+              </a>
+            </div>
+
+            <div class="cart-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="27" viewBox="0 0 30 27" fill="none" class="cart-icon">
+                <g clip-path="url(#clip0_327_9)">
+                  <path d="M0 2.76792C0 3.29331 0.44194 3.7418 0.96187 3.7418H5.35528L7.435 17.812C7.70796 19.6316 8.68283 20.7722 10.5676 20.7722H25.7365C26.2435 20.7722 26.6854 20.3621 26.6854 19.8111C26.6854 19.26 26.2435 18.8499 25.7365 18.8499H10.7885C10.0476 18.8499 9.5927 18.3374 9.47572 17.5557L9.26775 16.2102H25.7626C27.6602 16.2102 28.6352 15.0569 28.9082 13.2244L29.948 6.44564C29.9739 6.27906 30 6.07403 30 5.9587C30 5.34361 29.532 4.92073 28.8171 4.92073H7.60397L7.34401 3.2933C7.21402 2.30659 6.85007 1.80682 5.52425 1.80682H0.96187C0.44194 1.80682 0 2.25533 0 2.76792ZM9.47572 24.924C9.47572 26.0901 10.4116 27 11.5944 27C12.7643 27 13.7002 26.0901 13.7002 24.924C13.7002 23.7707 12.7643 22.8481 11.5944 22.8481C10.4116 22.8481 9.47572 23.7707 9.47572 24.924ZM21.6291 24.924C21.6291 26.0901 22.578 27 23.7478 27C24.9307 27 25.8665 26.0901 25.8665 24.924C25.8665 23.7707 24.9307 22.8481 23.7478 22.8481C22.578 22.8481 21.6291 23.7707 21.6291 24.924Z" fill="white"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_327_9">
+                    <rect width="30" height="27" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+
+              <div class="cart-item-number-indicator">099</div>
+          </div>
+
+          <div class="hamburger-menu-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none" class="hamburger-menu-icon">
+              <g clip-path="url(#clip0_217_47)">
+                <path d="M0.741472 14H19.2486C19.6638 14 20 13.5365 20 12.9503C20 12.3778 19.6638 11.9279 19.2486 11.9279H0.741472C0.326248 11.9279 0 12.3778 0 12.9503C0 13.5365 0.326248 14 0.741472 14Z" fill="white"/>
+                <path d="M0.741472 8.04286H19.2486C19.6638 8.04286 20 7.593 20 7.02046C20 6.43429 19.6638 5.97079 19.2486 5.97079H0.741472C0.326248 5.97079 0 6.43429 0 7.02046C0 7.593 0.326248 8.04286 0.741472 8.04286Z" fill="white"/>
+                <path d="M0.741472 2.09932H19.2486C19.6638 2.09932 20 1.64946 20 1.07692C20 0.504379 19.6638 0.0408936 19.2486 0.0408936H0.741472C0.326248 0.0408936 0 0.504379 0 1.07692C0 1.64946 0.326248 2.09932 0.741472 2.09932Z" fill="white"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_217_47">
+                  <rect width="20" height="14" fill="white"/>
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="card-grid">
+        <!-- Product Card -->
+        <div class="product-card">
+            <div class="product-image-container">
+                <img src="./images/products/athletic-cotton-socks-6-pairs.jpg" alt="" class="product-image">
+            </div>
+
+            <div class="product-name">
+                Black and Gray Athletic Cotton Socks - 6 Pairs
+            </div>
+
+            <div class="product-rating-container">
+                <img class="product-rating-stars"
+                  src="images/ratings/rating-45.png">
+                <div class="product-rating-count link-primary">
+                  87
+                </div>
+            </div>
+
+            <div class="product-price-quantity-container">
+                <div class="price">
+                    $10.99
+                </div>
+
+                <select name="amount" id="quantity" class="quantity-selector">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+
+            <!-- <div class="added-to-cart">
+                <img src="images/icons/checkmark.png" class="checkmark">
+                Added to Cart
+            </div> -->
+
+            <button class="add-to-cart">Add to Card</button>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image-container">
+                <img src="./images/products/intermediate-composite-basketball.jpg" alt="" class="product-image">
+            </div>
+
+            <div class="product-name">
+                Intermediate Size Basketball
+            </div>
+
+            <div class="product-rating-container">
+                <img class="product-rating-stars"
+                  src="images/ratings/rating-40.png">
+                <div class="product-rating-count link-primary">
+                  127
+                </div>
+            </div>
+
+            <div class="product-price-quantity-container">
+                <div class="price">
+                    $20.95
+                </div>
+
+                <select name="amount" id="quantity" class="quantity-selector">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+
+            <!-- <div class="added-to-cart">
+                <img src="images/icons/checkmark.png" class="checkmark">
+                Added to Cart
+            </div> -->
+
+            <button class="add-to-cart">Add to Card</button>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image-container">
+                <img src="./images/products/athletic-cotton-socks-6-pairs.jpg" alt="" class="product-image">
+            </div>
+
+            <div class="product-name">
+                Adults Plain Cotton T-Shirt - 2 Pack
+            </div>
+
+            <div class="product-rating-container">
+                <img class="product-rating-stars"
+                  src="images/ratings/rating-45.png">
+                <div class="product-rating-count link-primary">
+                  56
+                </div>
+            </div>
+
+            <div class="product-price-quantity-container">
+                <div class="price">
+                    $7.99
+                </div>
+
+                <select name="amount" id="quantity" class="quantity-selector">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+
+            <!-- <div class="added-to-cart">
+                <img src="images/icons/checkmark.png" class="checkmark">
+                Added to Cart
+            </div> -->
+
+            <button class="add-to-cart">Add to Card</button>
+        </div>
+    </div>
+        
+    <script src="./script.js"></script>
+</body>
+</html>

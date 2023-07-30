@@ -1,0 +1,120 @@
+body {
+    padding-top: 90px;
+    background-color: #e7e7e7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-grid {
+    width: fit-content;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+@media (max-width: 840px) {
+    .card-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 440px) {
+    body {
+        padding-top: 70px;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.product-card {
+    background-color: #ffffff;
+    border-radius: 9px;
+    width: 220px;
+    padding: 21px 21px;
+}
+
+.product-image-container {
+    margin-bottom: 20px;
+}
+
+.product-image {
+    height: 205px;
+    width: 100%;
+    background-color: #F8F8F8;
+    border-radius: 3px;
+}
+
+.product-name {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.product-rating-container {
+    display: flex;
+    margin-bottom: 13px;
+    align-items: center;
+}
+
+.product-rating-stars {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.product-rating-count {
+    color: gray;
+    font-size: 14px;
+}
+
+.product-price-quantity-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.quantity-selector {
+    width: 44px;
+    height: 24px;
+    border-radius: 7px;
+    background: #e5e5e5;
+    border: none;
+    padding-left: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.added-to-cart {
+    display: none;
+}
+
+/* .added-to-cart {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.checkmark {
+    height: 15px;
+    margin-right: 10px;
+} */
+
+.add-to-cart {
+    width: 100%;
+    height: 34px;
+    border-radius: 5px;
+    background: rgba(0, 120, 240);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
